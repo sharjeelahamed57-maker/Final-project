@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="search-box">
+  <input type="text" placeholder="Search car...">
+  <button>Search</button>
+</div>
+<div class="profile-pic">
+  <img src="download.jfif">
+</div>
+
+<div class="gallery">
+
+  <div class="card">
+    <img src="1.8-white-scaled.webp">
+    <div class="car-name">Toyota Corolla</div>
+    <button>Buy</button>
+  </div>
+
+  <div class="card">
+    <img src="front-left-side-47.avif">
+    <div class="car-name">Honda Civic</div>
+    <button>Buy</button>
+  </div>
+
+  <div class="card">
+    <img src="2025_1716188143.webp">
+    <div class="car-name">Suzuki suwfift</div>
+    <button>Buy</button>
+  </div>
+
+  <div class="card">
+    <img src="Suzuki-Cultus-1-1.webp">
+    <div class="car-name">Suzuki-Cultus</div>
+    <button>Buy</button>
+  </div>
+<div class="menage">
+ 
+  <button>add new car</button>
+  <br>
+  <button>remove car</button>
+</div>  
+
+</div>
+
+</body>
+</html>
