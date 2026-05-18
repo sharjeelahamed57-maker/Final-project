@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav class="navbar">
+
+   <h2>Car Gallery</h2>
+
+   <div class="nav-links">
+      <a href="">Home</a>
+
+      <a href="">Cars</a>
+
+      <a href="">Contact</a>
+   </div>
+
+</nav>
+
+<div class="search-box">
+  <input type="text" placeholder="Search car...">
+  <button>Search</button>
+</div>
+<div class="profile-pic">
+  <img src="download.jfif">
+</div>
+
+<div class="gallery">
+
+  <div class="card">
+    <img src="1.8-white-scaled.webp">
+    <div class="car-name">Toyota Corolla </div>
+      
+       <div>
+        <span class="car-price">Rs=75,000,00.00</span>
+       </div> 
+    
+    <button>Buy</button>
+  </div>
+
+  <div class="card">
+    <img src="front-left-side-47.avif">
+    <div class="car-name">Honda Civic </div>
+      
+    
+     <div>
+        <span class="car-price">Rs=95,000,00.00</span>
+     </div> 
+
+    <button>Buy</button>
+  </div>
+
+  <div class="card">
+    <img src="2025_1716188143.webp">
+    <div class="car-name">Suzuki swift </div>
+      
+     <div>
+        <span class="car-price">Rs=46,000,99.00</span>
+     </div> 
+    <button>Buy</button>
+  </div>
+
+  <div class="card">
+    <img src="Suzuki-Cultus-1-1.webp">
+    <div class="car-name">Suzuki-Cultus </div>
+     
+     <div>
+        <span class="car-price">Rs=45,000,00.00</span>
+     </div> 
+
+    <button>Buy</button>
+  </div>
+</div>  
+<div class="manage">
+  <h1>Managment section</h1>
+  <input type="text" placeholder="car-name">
+  <input type="text" placeholder="car-price">
+  <button>add new car</button>
+  <br>
+  <input type="text" placeholder="car-name">
+  <button>remove car</button>
+</div>  
+</body>
+</html>
