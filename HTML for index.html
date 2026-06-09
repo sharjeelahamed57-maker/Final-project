@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <h2>Car Gallery</h2>
+
+    <div class="nav-links">
+        <a onclick="showHome()">Home</a>
+        <a onclick="showCars()">Cars</a>
+        <a onclick="showContact()">Contact</a>
+    </div>
+</nav>
+
+<div id="homeSection">
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search car name">
+        <button onclick="searchCar()">Search</button>
+    </div>
+
+    <div id="searchResult"></div>
+
+    <div id="notFound">Car Not Found</div>
+
+    <div class="profile-pic">
+        <img src="generate-me-realistic-wide-shot-600nw-2696904281.webp" alt="Profile">
+    </div>
+
+</div>
+
+<div class="cars-container" id="carsSection">
+
+    <div class="gallery" id="carsGallery">
+
+        <div class="card">
+            <img src="1.8-white-scaled.webp" alt="">
+            <div class="car-name">Toyota Corolla</div>
+            <span class="car-price">Rs 7,500,000</span>
+            <div class="status">Available</div>
+            <button class="buy-btn" onclick="buyCar()">Buy</button>
+        </div>
+
+        <div class="card">
+            <img src="front-left-side-47.avif" alt="">
+            <div class="car-name">Honda Civic</div>
+            <span class="car-price">Rs 9,500,000</span>
+            <div class="status">Available</div>
+            <button class="buy-btn" onclick="buyCar()">Buy</button>
+        </div>
+
+        <div class="card">
+            <img src="2025_1716188143.webp" alt="">
+            <div class="car-name">Suzuki Swift</div>
+            <span class="car-price">Rs 4,600,000</span>
+            <div class="status">Available</div>
+            <button class="buy-btn" onclick="buyCar()">Buy</button>
+        </div>
+
+        <div class="card">
+            <img src="Suzuki-Cultus-1-1.webp" alt="">
+            <div class="car-name">Suzuki Cultus</div>
+            <span class="car-price">Rs 4,500,000</span>
+            <div class="status">Available</div>
+            <button class="buy-btn" onclick="buyCar()">Buy</button>
+        </div>
+
+    </div>
+</div>
+
+<div id="contactSection">
+    <h2>Contact Me</h2>
+    <p><strong>Phone:</strong> +92XXXXXXXXXX</p>
+    <p><strong>Email:</strong> example@gmail.com</p>
+</div>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
